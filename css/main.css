@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular-BookItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular-Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/Circular-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-family: "Circular";
+  background-image: url('../bg/bg.png')
+}
+
+hr {
+  margin: 0;
+  border: 0;
+  color: black;
+  background-color: black;
+  height: 2px;
+}
+
+.container {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 20px 0px;
+}
+
+.info {
+  font-weight: normal
+}
+
+.contact{
+  font-weight: 900;
+  color: black
+}
+.contact,a{
+  text-decoration: none;
+  color: #212121
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  height: 100px;
+  bottom: 0;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  color: #bbbbbb
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .info {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .info {
+    font-size: 28px;
+  }
+}
+
